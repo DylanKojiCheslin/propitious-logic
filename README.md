@@ -42,12 +42,12 @@ Nand
 Xor
 Nor
 
+a functionally complete set of operators can be used to
+express all possible truth tables[functionally complete](#https://en.wikipedia.org/wiki/Truth_function#Functional_completeness).
 
 http://www.cs.rochester.edu/~nelson/courses/csc_173/proplogic/expressions.html
 
 ## Operator Precedence(#Operator-Precedence)
-
-There is no natural order of precedence among logical operators
 
 The general rule is inside out if in nested parentheses and left to right.
 There also a general rule about the order of precedence being
@@ -56,40 +56,29 @@ There also a general rule about the order of precedence being
 3 Or
 
 
-For the sake of removing a lot of parentheses some people set arbitrary
-precedence between logical operators.
-
-a language is a formal languages if operator precedence is defined.
-a formal language also must be [functionally complete](#https://en.wikipedia.org/wiki/Truth_function#Functional_completeness).
-
+To remove a lot of parentheses some people set arbitrary precedence between logical operators.
 
 arbitrary order taken from [wikipedia](#https://en.wikipedia.org/wiki/Logical_connective#Order_of_precedence)
 
-|Name            |  precedence |
-|Negation        |  1          |
-|And             |  2          |
-|Or              |  3          |
-|Implication     |  4          |
-|Bi-Implication  |  5          |
+|  precedence |Name            |
+|  1          |Negation        |
+|  2          |And             |
+|  3          |Or              |
+|  4          |Implication     |
+|  5          |Bi-Implication  |
 
 a different set of precedence that includes parentheses
 
-| operators | precedence |
-| () | 1 |
-| \neg | 2 |
-| And Or Xor | 3 |
-| Implication Bi-Implication | 4 |
+| precedence | operators                  |
+| 1          | ()                         |
+| 2          | \neg                       |
+| 3          | And Or Xor                 |
+| 4          | Implication Bi-Implication |
 
-When trying to find the "right" order of precedence I was going to base it on programing languages,
-they also have slightly different rules. I have not found one that break the NOT,AND,OR rule.
-
+It would be interesting to try to have a compile time injection of the order of precedence.
 There may be something to operators precedence being based on how often the operator are in a functionally complete set.
 
 the number of props a logical operator takes is know as its [Arity](#https://en.wikipedia.org/wiki/Truth_function#Arity)
-
-
-
-
 
 ## Compound Proposition(#Compound-Proposition)
 
@@ -105,7 +94,6 @@ such as:
 Negation of p
 p and q
 r or s
-
 
 ## Examples(#example-props)
 
@@ -126,7 +114,6 @@ the propositional state of q is false
 this statement can be written as:
 p ^ q
 p AND q
-
 
 ## References(#References)
 https://en.wikipedia.org/wiki/Truth_function#Functional_completeness

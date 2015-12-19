@@ -115,6 +115,11 @@ this statement can be written as:
 p ^ q
 p AND q
 
+## Features
+the library should be able to take a propositional statement
+return a truth table
+tell if the statement is boolean satisfiable
+
 ## References(#References)
 https://en.wikipedia.org/wiki/Truth_function#Functional_completeness
 https://en.wikipedia.org/wiki/Propositional_calculus

@@ -116,7 +116,8 @@ p ^ q
 p AND q
 
 ## Features
-the library should be able to take a propositional statement
+the library should be able to parse a propositional statement
+parsing with dmaevsky/rd-parse -if they add a license
 return a truth table
 tell if the statement is boolean satisfiable
 
